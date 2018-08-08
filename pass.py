@@ -17,7 +17,7 @@ class NewPass():
     def __init__ (self, site):
         self.site = site
         try:
-            f = open(filename, "x")
+            open(filename, "x")
         except:
              print("File exists:")
         with open(filename, 'a', newline='', encoding='utf-8') as csvfile:
