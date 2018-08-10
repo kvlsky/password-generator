@@ -4,7 +4,6 @@ import csv
 import os.path
 import sys
 
-# print("enter the name of the website")
 website_ = input("enter the name of the website: ")
 login_ = input("enter your login: ")
 
